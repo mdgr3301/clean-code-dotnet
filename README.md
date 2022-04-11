@@ -2352,7 +2352,7 @@ public class Manager
     {
         foreach (var employee in _employees)
         {
-            _employee.Work();
+            employee.Work();
         }
     }
 }
